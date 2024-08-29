@@ -31,7 +31,8 @@ class Book{
 
 int main(){
     
-    Book library[3];
+    Book library[3];//this is the array of objects, here each book is an object
+    
     for(int i = 0; i < 3; i++){
         library[i].addBook();
     }
